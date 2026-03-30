@@ -3,6 +3,10 @@
 Open a single [OpenCode](https://github.com/sst/opencode) window inside tmux and
 reuse it across the current tmux session.
 
+![screen.png](screen.png)
+
+Idea is that you have single bind in memory that will always open OpenCode and preferably in the same window, but either way you just have bind to get to ai in this session (and you keep same path in all windows).
+
 ## Installation
 
 ### Manual installation
