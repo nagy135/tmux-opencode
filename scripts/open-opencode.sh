@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-WINDOW_ID_OPTION="@opencode-window-id"
-WINDOW_POSITION_OPTION="@opencode-window-position"
+WINDOW_ID_OPTION="@tmux-opencode-window-id"
+WINDOW_POSITION_OPTION="@tmux-opencode-window-position"
 
 getWindowTarget() {
   local session_id="$1"

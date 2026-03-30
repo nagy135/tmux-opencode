@@ -29,17 +29,17 @@ one.
 
 ## Configuration options
 
-### `@open-opencode`
+### `@tmux-opencode-open`
 
 **Default: a (prefix+a)**
 
 Key used to open OpenCode.
 
 ```bash
-set -g @open-opencode 'a'
+set -g @tmux-opencode-open 'a'
 ```
 
-### `@opencode-window-position`
+### `@tmux-opencode-window-position`
 
 **Default: unset**
 
@@ -48,5 +48,5 @@ already occupied, the plugin uses the next free index. Leave it unset to keep th
 default tmux placement behavior.
 
 ```bash
-set -g @opencode-window-position '3'
+set -g @tmux-opencode-window-position '3'
 ```

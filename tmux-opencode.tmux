@@ -4,7 +4,7 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source "$CURRENT_DIR/scripts/helpers.sh"
 
 default_key_bindings_openopencode="a"
-tmux_option_open_opencode="@open-opencode"
+tmux_option_open_opencode="@tmux-opencode-open"
 
 set_open_opencode_key_bindings () {
 	local key_bindings=$(get_tmux_option "$tmux_option_open_opencode" "$default_key_bindings_openopencode")
