@@ -38,3 +38,15 @@ Key used to open OpenCode.
 ```bash
 set -g @open-opencode 'a'
 ```
+
+### `@opencode-window-position`
+
+**Default: unset**
+
+Preferred tmux window index for a newly created OpenCode window. If that index is
+already occupied, the plugin uses the next free index. Leave it unset to keep the
+default tmux placement behavior.
+
+```bash
+set -g @opencode-window-position '3'
+```
